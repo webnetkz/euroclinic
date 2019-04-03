@@ -1,0 +1,23 @@
+{
+ "short_name": "Emirmed",
+ "name": "Emirmed",
+ "icons": [
+    {
+      "src": "/public/img/miniEmirmed.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+ "icons": [
+    {
+      "src":"/public/img/logoEmirmed.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "rgb(255, 255, 255)",
+  "theme_color": "rgb(255, 255, 255)",
+  "display": "fullscreen",
+  "prefer_related_applications": false
+}

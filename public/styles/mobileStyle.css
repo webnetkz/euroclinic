@@ -1,27 +1,18 @@
 @media only screen and (max-width: 1024px) {
-    ul.menuHeader {
+    div.one {
         visibility: hidden;
     }
 
-    img.logotype {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-
-    div.blockLogo {
-        left: 35%;
-    }
-
-    a > img.logotype {
-        transform: translate(-50%, 0);
-    }
-
-    #footerStart {
+    div.three {
         visibility: hidden;
     }
 
-    #footerEnd {
-        visibility: hidden;
+    div.meddleText {
+        width: 100%;
+        left: 0;
+    }
+
+    div#content {
+        background: url(/public/img/bgm.jpg) no-repeat;
     }
 }

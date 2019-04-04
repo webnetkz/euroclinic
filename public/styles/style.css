@@ -42,6 +42,7 @@ div.phone {
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     box-shadow: 0 0 20px rgb(77, 77, 77);
+    z-index: 3;
 }
 
 div.phone:hover {
@@ -83,6 +84,7 @@ form#formPhone {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     transition-duration: 300ms;
+    z-index: 3;
 }
 
 input.inpPhone {
@@ -127,6 +129,7 @@ header {
     height: 5em;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     background: rgb(255, 255, 255);
+    z-index: 22;
 }
 
 div.one {
@@ -202,6 +205,7 @@ p.callBack {
     padding: 0.5em;
     border-radius: 30px;
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    transition-duration: 500ms;
 }
 
 p.callBack:hover {
@@ -217,7 +221,7 @@ div#content {
     text-align: center;
     background: url(/public/img/bg.jpg) no-repeat;
     background-size: 100%;
-    z-index: -88;
+    z-index: 1;
 }
 
 div.meddleText {
@@ -225,9 +229,31 @@ div.meddleText {
     background-color: rgba(0, 0, 0, 0.4);
     color: rgb(255, 255, 255);
     width: 35%;
-    height: 15%;
+    height: 25%;
     text-align: center;
     margin-top: 20%;
+}
+
+h3 {
+    display: inline;
+}
+
+a.hr {
+    display: block;
+    text-decoration: none;
+    width: 20%;
+    margin-left: 40%;
+    padding: 1em;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 255);
+    margin-top: 20px;
+    transition-duration: 400ms;
+}
+
+a.hr:hover {
+    background-color: rgb(22, 22, 244);
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
 
 /* FOOTER STYLE*/

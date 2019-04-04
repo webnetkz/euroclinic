@@ -60,8 +60,10 @@
                     <h2>Все процедуры оказываются круглосуточно</h2>
                     <h1 style="font-size: 2em;">Без праздников и выходных</h1>
                         <hr style="border-color: rgb(255, 255, 255); margin: 10px;">
-                    <h3>+7 707 555 05 78</h3>
+                    <h3>+7 707 555 05 78 или</h3>
                     <h3>+7 727 354 46 86</h3>
+
+                        <a href="https://emirmed.kz/vyvod-iz-zapoya/" class="hr">подробней</a>
                 </div>
 
                 

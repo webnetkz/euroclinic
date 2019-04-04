@@ -52,9 +52,17 @@
                 </div>
 
             </header>
-
+            
             <div id="content">
+                    
 
+                <div class="meddleText">
+                    <h2>Все процедуры оказываются круглосуточно</h2>
+                    <h2 style="font-size: 2em;">Без праздников и выходных</h2>
+                </div>
+
+                
+                
             </div>
 
             <footer>

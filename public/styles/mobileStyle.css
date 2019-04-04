@@ -9,10 +9,16 @@
 
     div.meddleText {
         width: 100%;
-        left: 0;
+        height: 30%;
     }
 
     div#content {
         background: url(/public/img/bgm.jpg) no-repeat;
+    }
+
+    form#formPhone {
+        left: 5%;
+        height: 35%;
+        width: 90%;
     }
 }

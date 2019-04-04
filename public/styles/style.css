@@ -44,6 +44,10 @@ div.phone {
     box-shadow: 0 0 20px rgb(77, 77, 77);
 }
 
+div.phone:hover {
+    cursor: pointer;
+}
+
 img.phone_icon {
     height: 4em;
     margin-left: 1em;
@@ -108,6 +112,7 @@ input.phoneBtn {
 }
 
 input.phoneBtn:hover {
+    cursor: pointer;
     box-shadow: none;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -125,14 +130,19 @@ header {
 }
 
 div.one {
-    display: inline-block;
-    width: 20%;
-    text-align: right;
+    position: fixed;
+    width: 30%;
+    height: 5em;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 div.one > img {
+    position: fixed;
+    top: 0.5em;
+    left: 5%;
     height: 4em;
-    margin-bottom: 0.5em;
     animation: spinTime 3s infinite;
 }
 
@@ -147,40 +157,56 @@ div.one > img {
 }
 
 p.textS {
-    position: fixed;
-    top: 0;
-    left: 15%;
+    position: inline-block;
     line-height: 5em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 div.two {
+    position: fixed;
+    top: 0;
+    left: 30%;
     width: 40%;
-    display: inline-block;
-    text-align: center;
-}
-
-div.two > img {
     height: 5em;
     text-align: center;
 }
 
-div.three {
-    float: right;
+div.two > img {
+    height: 6em;
+    margin-top: -1em;
+    text-align: center;
 }
 
-div.three > p {
-    display: inline-block;
-    margin: 2.5em;
+div.three {
+    position: fixed;
+    top: 0;
+    left: 70%;
+    width: 30%;
+    height: 5em;
+}
+
+p.number {
+    line-height: 1.7em;
+    display: inline;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 p.callBack {
-    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    margin: 0.5em;
+    margin-right: 2em;
     color: rgb(255, 255, 255);
     background: linear-gradient(to right, rgb(22, 255, 22), rgb(0, 255, 0));
     padding: 0.5em;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+p.callBack:hover {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 /* CONTENT STYLE*/
@@ -189,13 +215,14 @@ div#content {
     height: 100%;
     flex: 1 0 auto;
     text-align: center;
-    background-color: rgb(232, 246, 255);
+    background: url(/public/img/bg.jpg) no-repeat;
+    background-size: 100%;
     z-index: -88;
 }
 
 /* FOOTER STYLE*/
 footer {
-    height: 10em;
+    height: 30em;
     flex: 0 0 auto;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     border-top: 1px solid rgb(72, 72, 72);

@@ -32,8 +32,8 @@
             <header>
             
                 <div class="one">
-                    <img src="/public/img/24.svg" alt="icons 24 hours">
                     <p class="textS">КРУГЛОСУТОЧНО 24/7</p>
+                    <img src="/public/img/24.svg" alt="icons 24 hours">
                 </div>
                 <a href="#">
                     <div class="two">
@@ -41,11 +41,12 @@
                     </div>
                  </a>
                 <div class="three">
-                    <p class="callBack">заказать звонок</p>
-                    <p>
+                    <p class="callBack" onclick="handlerForm();">заказать звонок</p>
+                    <p class="number">
                         +7 707 555 05 78
                     </p>
-                    <p>
+                        <br>
+                    <p class="number">
                         +7 727 354 46 86
                     </p>
                 </div>

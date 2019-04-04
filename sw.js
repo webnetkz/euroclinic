@@ -11,7 +11,11 @@ self.addEventListener('install', function(e) {
        '/public/img/logoEmirmed.png',
        '/public/scripts/main.js',
        '/public/styles/style.css',
-       'public/styles/mobileStyle.css'
+       'public/styles/mobileStyle.css',
+       '/public/img/24.svg',
+       '/public/img/bg.jpg',
+       '/public/img/bgm.jpg',
+       '/public/img/phone-call.svg'
      ]);
    })
  );

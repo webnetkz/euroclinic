@@ -8,8 +8,8 @@
     $to      = 'emirmed@mail.com';
     $subject = 'Вывод из запоя';
     $message = '<b>' . $name . '</b> <br> <b>' . $phone . '</b>';
-    $headers = 'From: lead@emirmed.kz' . "\r\n" .
-    'Reply-To: lead@emiemed.kz' . "\r\n" .
+    $headers = 'From: lead@euroclinic.kz' . "\r\n" .
+    'Reply-To: dbqqbq@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail($to, $subject, $message, $headers);

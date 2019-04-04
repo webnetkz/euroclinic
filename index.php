@@ -55,7 +55,7 @@ mail($to, $subject, $message, $headers);
                 <div class="three">
                     <p class="callBack" onclick="handlerForm();">заказать звонок</p>
                     <p class="number">
-                        +7 707 555 05 78
+                        +7 707 394 99 81
                     </p>
                         <br>
                     <p class="number">
@@ -72,7 +72,7 @@ mail($to, $subject, $message, $headers);
                     <h2>Все процедуры оказываются круглосуточно</h2>
                     <h1 style="font-size: 2em;">Без праздников и выходных</h1>
                         <hr style="border-color: rgb(255, 255, 255); margin: 10px;">
-                    <h3>+7 707 555 05 78 или</h3>
+                    <h3>+7 707 394 99 81 или</h3>
                     <h3>+7 727 354 46 86</h3>
 
                         <a href="https://emirmed.kz/vyvod-iz-zapoya/" class="hr">подробней</a>
@@ -90,9 +90,11 @@ mail($to, $subject, $message, $headers);
 
         </div> <!-- END DIV #ALL-->
 
-        <div class="phone" onclick="handlerForm();">
-            <img src="/public/img/phone-call.svg" alt="pnone icon" class="phone_icon">
-        </div>
+        <a href="tel:+77073949981" style="text-decoration: none; outline: none;">
+            <div class="phone">
+                <img src="/public/img/phone-call.svg" alt="pnone icon" class="phone_icon">
+            </div>
+        </a>        
 
         <form action="index.php" method="POST" class="hiddenForm" id="formPhone">
             <input type="text" autocomplete="off" class="inpPhone" placeholder="Ваше имя" name="nameInp">

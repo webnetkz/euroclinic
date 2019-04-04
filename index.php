@@ -5,9 +5,9 @@
     $name = htmlspecialchars($_POST['nameInp']);
     $phone = htmlspecialchars($_POST['phoneInp']);
     
-    $to      = 'emirmed@mail.com';
+    $to      = 'emirmed@mail.ru';
     $subject = 'Вывод из запоя';
-    $message = '<b>' . $name . '</b> <br> <b>' . $phone . '</b>';
+    $message = 'Имя: ' . $name . '; Номер телефона для связи: ' . $phone . ';';
     $headers = 'From: lead@euroclinic.kz' . "\r\n" .
     'Reply-To: dbqqbq@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
